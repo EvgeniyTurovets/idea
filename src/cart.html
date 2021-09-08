@@ -1,0 +1,562 @@
+@include('partials/header.html')
+<!--CONTENT-->
+<div class="content clearfix">
+    <!--
+        CONTENT LEFT SIDEBAR
+        -->
+    <!--
+        CONTENT RIGHT WORKAREA
+        -->
+    <div class="content-full-width">
+        <div class="content-block breadcrumbs">
+            <ul>
+                <li><a href="/catalog/" title="Каталог"><span>Каталог</span></a></li>
+                <li><a href="/personal/" title="Персональный раздел"><span>Персональный раздел</span></a></li>
+                <li><span>Оформление</span></li>
+            </ul>
+        </div>
+        <script type="application/ld+json">
+            {
+             "@context": "https://schema.org",
+             "@type": "BreadcrumbList",
+             "itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"\/catalog\/","name":"\u041a\u0430\u0442\u0430\u043b\u043e\u0433"}},{"@type":"ListItem","position":2,"item":{"@id":"\/personal\/","name":"\u041f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0437\u0434\u0435\u043b"}},{"@type":"ListItem","position":3,"item":{"@id":"\/personal\/cart\/","name":"\u041e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435"}}]
+            }
+        </script>
+        <h1>Корзина</h1>
+        <form method="post" action="/personal/cart/" name="basket_form" id="basket_form">
+            <input type="hidden" name="BasketOrder" value="BasketOrder">
+            <div class="bx_order_make airSticky_stop-block">
+                <div class="basket-left-col">
+                    <div class="basketbasket">
+                        <table class="table-basket">
+                            <tbody>
+                                <tr data-price="38300" data-basket_id="5655019" class="basket-item">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/roca-vanna-chugunnaya-continental-21291100r-170x70-sm/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/40a6645eef69c7e41db779d63350d39b.jpg"
+                                                width="" height="" alt="Ванна чугунная Continental 21291100R 170х70 см">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/roca-vanna-chugunnaya-continental-21291100r-170x70-sm/"
+                                                class="item-name">Ванна чугунная Continental 21291100R 170х70 см</a>
+                                            <div class="set-title code">Код товара: 173141</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655019"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655019" value="1" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655019"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                        <div class="basket-item-d">
+                                            -&nbsp;11%
+                                        </div>
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="old_price">42513 руб</span>
+                                        <span class="price" data-price="38300">38 300 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655019" id="DELETE_0"
+                                            data-id="5655019" data-name="Ванна чугунная Continental 21291100R 170х70 см"
+                                            data-category="Чугунные ванны" value="Y">
+                                        <label for="DELETE_0"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="4059.16" data-basket_id="5655020" class="basket-item odd">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/aquanet-bokovoy-ekran-dlya-vanny-borneo-r-75/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/1c1b6c47ebd54a291b2b5fac63c299c3.jpg"
+                                                width="" height="" alt="Боковой экран для ванны BORNEO R 75">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/aquanet-bokovoy-ekran-dlya-vanny-borneo-r-75/"
+                                                class="item-name">Боковой экран для ванны BORNEO R 75</a>
+                                            <div class="set-title code">Код товара: 365116</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655020"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655020" value="1" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655020"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                        <div class="basket-item-d">
+                                            -&nbsp;2.00%
+                                        </div>
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="old_price">4 142 руб</span>
+                                        <span class="price" data-price="4059.16">4 059 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655020" id="DELETE_1"
+                                            data-id="5655020" data-name="Боковой экран для ванны BORNEO R 75"
+                                            data-category="Комплектующие" value="Y">
+                                        <label for="DELETE_1"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="1650" data-basket_id="5655034" class="basket-item">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/fixsen-derzhatel-polotentsa-metra-fx-11101/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/e4c83d7827df07a32393b7df07c13e04.jpg"
+                                                width="" height="" alt="Держатель полотенца Metra FX-11101">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/fixsen-derzhatel-polotentsa-metra-fx-11101/"
+                                                class="item-name">Держатель полотенца Metra FX-11101</a>
+                                            <div class="set-title code">Код товара: 429463</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655034"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655034" value="1" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655034"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="price" data-price="1650">1 650 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655034" id="DELETE_2"
+                                            data-id="5655034" data-name="Держатель полотенца Metra FX-11101"
+                                            data-category="Аксессуары для ванной комнаты" value="Y">
+                                        <label for="DELETE_2"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="1995" data-basket_id="5655094" class="basket-item odd">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/fixsen-vedro-hotel-fx-31024-8-l/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/7b986b009cd38c37b9ca90b55f92258b.jpg"
+                                                width="" height="" alt="Ведро Hotel FX-31024 8 л.">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/fixsen-vedro-hotel-fx-31024-8-l/" class="item-name">Ведро
+                                                Hotel FX-31024 8 л.</a>
+                                            <div class="set-title code">Код товара: 429505</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655094"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655094" value="3" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655094"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="price" data-price="1995">1 995 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655094" id="DELETE_3"
+                                            data-id="5655094" data-name="Ведро Hotel FX-31024 8 л."
+                                            data-category="Аксессуары для ванной комнаты" value="Y">
+                                        <label for="DELETE_3"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="7252" data-basket_id="5655298" class="basket-item">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/jika-rakovina-cubito-55-1042-2/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/d53b58885d6bb691f95164b971352b8a.jpg"
+                                                width="" height="" alt="Раковина &quot;Cubito 55&quot; 1042.2">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/jika-rakovina-cubito-55-1042-2/" class="item-name">Раковина
+                                                "Cubito 55" 1042.2</a>
+                                            <div class="set-title code">Код товара: 14381</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655298"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655298" value="1" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655298"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                        <div class="basket-item-d">
+                                            -&nbsp;2.00%
+                                        </div>
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="old_price">7 400 руб</span>
+                                        <span class="price" data-price="7252">7 252 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655298" id="DELETE_4"
+                                            data-id="5655298" data-name="Раковина &quot;Cubito 55&quot; 1042.2"
+                                            data-category="Раковины" value="Y">
+                                        <label for="DELETE_4"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="37020" data-basket_id="5655313" class="basket-item odd">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/misty-mebel-dlya-vannoy-zhardin-80-svetlo-bezhevaya/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/7e678e280b1aba4c91f665ab3b904841.jpg"
+                                                width="" height="" alt="Мебель для ванной Жардин 80 светло-бежевая">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/misty-mebel-dlya-vannoy-zhardin-80-svetlo-bezhevaya/"
+                                                class="item-name">Мебель для ванной Жардин 80 светло-бежевая</a>
+                                            <div class="set-title code">Код товара: 429779</div>
+                                            <div class="set-title set-title_5655313">
+                                                <div class="set-sh-icon show-set-icon"></div>
+                                                Состав комплекта
+                                            </div>
+                                            <div class="set-elements">
+                                                <div class="set-element">
+                                                    <span class="set-element-name">Тумба под раковину Жардин 80
+                                                        светло-бежевая</span>: <span class="set-element-q">1</span> шт.
+                                                </div>
+                                                <div class="set-element">
+                                                    <span class="set-element-name">Умывальник Классик 80</span>: <span
+                                                        class="set-element-q">1</span> шт.
+                                                </div>
+                                                <div class="set-element">
+                                                    <span class="set-element-name">Зеркало для ванной Шармель 75</span>:
+                                                    <span class="set-element-q">1</span> шт.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655313"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655313" value="3" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655313"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="price" data-price="37020">37 020 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655313" id="DELETE_5"
+                                            data-id="5655313" data-name="Мебель для ванной Жардин 80 светло-бежевая"
+                                            data-category="Мебель для ванных" value="Y">
+                                        <label for="DELETE_5"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="49400" data-basket_id="5655337" class="basket-item">
+                                    <td class="basket-item-image">
+                                        <a
+                                            href="/tovary/jacob-delafon-akrilovaya-vanna-odeon-rive-gauche-170x75-e6d152-00/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/aea9e5aef92498ebb6dee2f6cc5af2a9.jpg"
+                                                width="" height=""
+                                                alt="Акриловая ванна Odeon Rive Gauche 170x75 E6D152-00">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/jacob-delafon-akrilovaya-vanna-odeon-rive-gauche-170x75-e6d152-00/"
+                                                class="item-name">Акриловая ванна Odeon Rive Gauche 170x75 E6D152-00</a>
+                                            <div class="set-title code">Код товара: 429694</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655337"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655337" value="1" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655337"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="price" data-price="49400">49 400 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655337" id="DELETE_6"
+                                            data-id="5655337"
+                                            data-name="Акриловая ванна Odeon Rive Gauche 170x75 E6D152-00"
+                                            data-category="Акриловые ванны" value="Y">
+                                        <label for="DELETE_6"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="6050" data-basket_id="5655361" class="basket-item odd">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/misty-tumba-pod-rakovinu-laguna-60-pryamaya-belaya/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/d2ddc9464ec604f42d2aadbb6378ab54.jpg"
+                                                width="" height="" alt="Тумба под раковину Лагуна 60 прямая белая">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/misty-tumba-pod-rakovinu-laguna-60-pryamaya-belaya/"
+                                                class="item-name">Тумба под раковину Лагуна 60 прямая белая</a>
+                                            <div class="set-title code">Код товара: 429835</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655361"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655361" value="2" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655361"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="price" data-price="6050">6 050 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655361" id="DELETE_7"
+                                            data-id="5655361" data-name="Тумба под раковину Лагуна 60 прямая белая"
+                                            data-category="Мебель для ванных" value="Y">
+                                        <label for="DELETE_7"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="6500" data-basket_id="5655865" class="basket-item">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/vodoley-mebel-dlya-vannoy-mango-40/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/aeec654dbef966db14a539ebaf4aee6e.jpg"
+                                                width="" height="" alt="Мебель для ванной Манго 40">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/vodoley-mebel-dlya-vannoy-mango-40/"
+                                                class="item-name">Мебель для ванной Манго 40</a>
+                                            <div class="set-title code">Код товара: 1676</div>
+                                            <div class="set-title set-title_5655865">
+                                                <div class="set-sh-icon show-set-icon"></div>
+                                                Состав комплекта
+                                            </div>
+                                            <div class="set-elements">
+                                                <div class="set-element">
+                                                    <span class="set-element-name">Раковина мебельная Mango</span>:
+                                                    <span class="set-element-q">1</span> шт.
+                                                </div>
+                                                <div class="set-element">
+                                                    <span class="set-element-name">Тумба под раковину Манго 40</span>:
+                                                    <span class="set-element-q">1</span> шт.
+                                                </div>
+                                                <div class="set-element">
+                                                    <span class="set-element-name">Зеркало для ванной "35"</span>: <span
+                                                        class="set-element-q">1</span> шт.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655865"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655865" value="2" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655865"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                        <div class="basket-item-d">
+                                            -&nbsp;20%
+                                        </div>
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="old_price">7816 руб</span>
+                                        <span class="price" data-price="6500">6 500 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655865" id="DELETE_8"
+                                            data-id="5655865" data-name="Мебель для ванной Манго 40"
+                                            data-category="Мебель для ванных" value="Y">
+                                        <label for="DELETE_8"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                                <tr data-price="20990" data-basket_id="5655890" class="basket-item odd">
+                                    <td class="basket-item-image">
+                                        <a href="/tovary/parly-dushevaya-kabina-etm92/">
+                                            <img class="basket-item-img"
+                                                src="./img/cart/16ec82331815fa2ff48584dc21f0a14c.jpg"
+                                                width="" height="" alt="Душевая кабина ETМ92">
+                                        </a>
+                                    </td>
+                                    <td class="basket-item-name">
+                                        <div class="name-box">
+                                            <a href="/tovary/parly-dushevaya-kabina-etm92/" class="item-name">Душевая
+                                                кабина ETМ92</a>
+                                            <div class="set-title code">Код товара: 420527</div>
+                                        </div>
+                                    </td>
+                                    <td align="center" class="basket-item-quantity">
+                                        <div class="q_counter">
+                                            <div class="quantity_minus" id="qm_5655890"></div>
+                                            <span class="q_input">
+                                                <input data-cel="1" class="q_counter_input" maxlength="18" type="text"
+                                                    name="QUANTITY_5655890" value="2" size="3">
+                                                <!-- <span class="unit">шт</span> -->
+                                            </span>
+                                            <div class="quantity_plus" id="qp_5655890"></div>
+                                        </div>
+                                    </td>
+                                    <td class="basket-item-discount">
+                                    </td>
+                                    <td align="right" class="basket-item-price">
+                                        <span class="price" data-price="20990">20 990 руб</span>
+                                        <input class="checkbox_del" type="checkbox" name="DELETE_5655890" id="DELETE_9"
+                                            data-id="5655890" data-name="Душевая кабина ETМ92"
+                                            data-category="Душевые кабины" value="Y">
+                                        <label for="DELETE_9"><span class="delete-link">Удалить</span></label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </div>
+                    <!-- .basketbasket -->
+                </div>
+                <div class="basket-right-col">
+                    <div class="basket-right-col-inner airSticky" style="top: 0px;">
+                        <div class="total-price">
+                            <div class="row">
+                                <div class="total-price-title">Общая сумма:</div>
+                                <div class="total-price-price"><span id="total-price">284786</span> руб</div>
+                            </div>
+                            <div class="row discount" style="display:block;">
+                                <div class="total-price-title">Ваша экономия:</div>
+                                <div class="total-price-price"><span id="total-price-discount">7076</span> руб</div>
+                            </div>
+                            <div class="row delivery" style="display: none;">
+                                <div class="total-price-title">Доставка:</div>
+                                <div class="total-price-price"><span id="total-price-delivery"></span> руб</div>
+                            </div>
+                        </div>
+                        <div class="common-price">
+                            <div class="common-price-title">Итого</div>
+                            <div class="common-price-price" data-common-price="284786">284 786 руб.</div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="make-order-button">
+                            <a href="javascript:void(0)" id="ORDER_BUY_ONCLICK"
+                                class="button full_width buy-oneclick">Купить в один клик</a>
+                            <a href="javascript:void(0)" onclick="checkOut();" id="ORDER_CONFIRM_BUTTON"
+                                class="button full_width">Оформить заказ</a>
+                        </div>
+                        <div class="agreement">
+                            <div style="margin-top:20px">
+                                Нажимая «Оформить заказ», Вы соглашаетесь с условиями <a
+                                    href="/polzovatelskoe-soglashenie/" target="_blank">Пользовательского соглашения</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </form>
+        <div class="footer-block"></div>
+        <div class="template_footer">
+            <div class="template_footer_inner">
+                <div class="template_footer_title">
+                    <h2>Почему стоит оформить заказ прямо сейчас?</h2>
+                </div>
+                <div class="template_footer_body">
+                    <ul class="template_footer_items">
+                        <li class="template_footer_item">
+                            <div class="item_icon">
+                                <img src="./img/cart/1-k-1.svg">
+                            </div>
+                            <div class="item_title">
+                                <h3>Удобная доставка</h3>
+                            </div>
+                            <div class="item_description">
+                                Бесплатная доставка при заказе от 25000 рублей. Подъем в квартиру по вашей просьбе
+                            </div>
+                        </li>
+                        <li class="template_footer_item">
+                            <div class="item_icon">
+                                <img src="./img/cart/1-k-2.svg">
+                            </div>
+                            <div class="item_title">
+                                <h3>Самовывоз <br>в г. Москва</h3>
+                            </div>
+                            <div class="item_description">
+                                Заказы можно забирать когда удобно
+                            </div>
+                        </li>
+                        <li class="template_footer_item">
+                            <div class="item_icon">
+                                <img src="./img/cart/1-k-3.svg">
+                            </div>
+                            <div class="item_title">
+                                <h3>Оплата любыми способами</h3>
+                            </div>
+                            <div class="item_description">
+                                Любые способы оплаты для вашего удобства
+                            </div>
+                        </li>
+                        <li class="template_footer_item">
+                            <div class="item_icon">
+                                <img src="./img/cart/1-k-4.svg">
+                            </div>
+                            <div class="item_title">
+                                <h3>Качественное гарантийное обслуживание</h3>
+                            </div>
+                            <div class="item_description">
+                                Поможем с заменой товара и предоставим полное сервисное обслуживание
+                            </div>
+                        </li>
+                        <li class="template_footer_item">
+                            <div class="item_icon">
+                                <img src="./img/cart/1-k-5.svg">
+                            </div>
+                            <div class="item_title">
+                                <h3>Быстрый отклик на заказ</h3>
+                            </div>
+                            <div class="item_description">
+                                Оперативный ответ после оформления заказа
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+@include('partials/footer.html')

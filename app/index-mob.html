@@ -21,45 +21,23 @@
     <script type="text/javascript">window.mod_pagespeed_start = Number(new Date());</script>
     <script type="text/javascript"
         data-skip-moving="true">(function (w, d, n) { var cl = "bx-core"; var ht = d.documentElement; var htc = ht ? ht.className : undefined; if (htc === undefined || htc.indexOf(cl) !== -1) { return; } var ua = n.userAgent; if (/(iPad;)|(iPhone;)/i.test(ua)) { cl += " bx-ios"; } else if (/Android/i.test(ua)) { cl += " bx-android"; } cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch"); cl += w.devicePixelRatio && w.devicePixelRatio >= 2 ? " bx-retina" : " bx-no-retina"; var ieVersion = -1; if (/AppleWebKit/.test(ua)) { cl += " bx-chrome"; } else if ((ieVersion = getIeVersion()) > 0) { cl += " bx-ie bx-ie" + ieVersion; if (ieVersion > 7 && ieVersion < 10 && !isDoctype()) { cl += " bx-quirks"; } } else if (/Opera/.test(ua)) { cl += " bx-opera"; } else if (/Gecko/.test(ua)) { cl += " bx-firefox"; } if (/Macintosh/i.test(ua)) { cl += " bx-mac"; } ht.className = htc ? htc + " " + cl : cl; function isDoctype() { if (d.compatMode) { return d.compatMode == "CSS1Compat"; } return d.documentElement && d.documentElement.clientHeight; } function getIeVersion() { if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)) { return -1; } var rv = -1; if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)) { rv = 11; } else if (!!d.documentMode && d.documentMode >= 10) { rv = 10; } else if (!!d.documentMode && d.documentMode >= 9) { rv = 9; } else if (d.attachEvent && !/Opera/.test(ua)) { rv = 8; } if (rv == -1 || rv == 8) { var re; if (n.appName == "Microsoft Internet Explorer") { re = new RegExp("MSIE ([0-9]+[\.0-9]*)"); if (re.exec(ua) != null) { rv = parseFloat(RegExp.$1); } } else if (n.appName == "Netscape") { rv = 11; re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)"); if (re.exec(ua) != null) { rv = parseFloat(RegExp.$1); } } } return rv; } })(window, document, navigator);</script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="./new-mob/kernel_main.css" type="text/css" rel="stylesheet">
     <link href="./new-mob/template.css" type="text/css" data-template-style="true" rel="stylesheet">
+    <link href="./new-mob/catalog.css" type="text/css" data-template-style="true" rel="stylesheet">
     <meta property="og:title" content="VIVON.RU - Интернет магазин сантехники в Москве.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="/">
     <meta property="og:site_name" content="vivon.ru">
     <meta property="og:description"
         content="Интернет магазин сантехники VIVON.RU - душевые кабины, акриловые ванны, мебель для ванной комнаты. Продажа недорогой сантехники в Москве.">
-    <link rel="canonical" href=/">
+    <link rel="canonical" href="/">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Google Tag Manager -->
-    <!-- End Google Tag Manager -->
-    <script data-pagespeed-no-defer="">(function () {
-            function f(a, b, d) { if (a.addEventListener) a.addEventListener(b, d, !1); else if (a.attachEvent) a.attachEvent("on" + b, d); else { var c = a["on" + b]; a["on" + b] = function () { d.call(this); c && c.call(this) } } }; window.pagespeed = window.pagespeed || {}; var g = window.pagespeed; function k(a) { this.g = []; this.f = 0; this.h = !1; this.j = a; this.i = null; this.l = 0; this.b = !1; this.a = 0 } function l(a, b) { var d = b.getAttribute("data-pagespeed-lazy-position"); if (d) return parseInt(d, 0); var d = b.offsetTop, c = b.offsetParent; c && (d += l(a, c)); d = Math.max(d, 0); b.setAttribute("data-pagespeed-lazy-position", d); return d }
-            function m(a, b) {
-                var d, c, e; if (!a.b && (0 == b.offsetHeight || 0 == b.offsetWidth)) return !1; a: if (b.currentStyle) c = b.currentStyle.position; else { if (document.defaultView && document.defaultView.getComputedStyle && (c = document.defaultView.getComputedStyle(b, null))) { c = c.getPropertyValue("position"); break a } c = b.style && b.style.position ? b.style.position : "" } if ("relative" == c) return !0; e = 0; "number" == typeof window.pageYOffset ? e = window.pageYOffset : document.body && document.body.scrollTop ? e = document.body.scrollTop : document.documentElement &&
-                    document.documentElement.scrollTop && (e = document.documentElement.scrollTop); d = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; c = e; e += d; var h = b.getBoundingClientRect(); h ? (e = h.top - d, c = h.bottom) : (h = l(a, b), d = h + b.offsetHeight, e = h - e, c = d - c); return e <= a.f && 0 <= c + a.f
-            }
-            k.prototype.m = function (a) {
-                p(a); var b = this; window.setTimeout(function () {
-                    var d = a.getAttribute("data-pagespeed-lazy-src"); if (d) if ((b.h || m(b, a)) && -1 != a.src.indexOf(b.j)) {
-                        var c = a.parentNode, e = a.nextSibling; c && c.removeChild(a); a.c && (a.getAttribute = a.c); a.removeAttribute("onload"); a.tagName && "IMG" == a.tagName && g.CriticalImages && f(a, "load", function () { g.CriticalImages.checkImageForCriticality(this); b.b && (b.a--, b.a || g.CriticalImages.checkCriticalImages()) }); a.removeAttribute("data-pagespeed-lazy-src"); a.removeAttribute("data-pagespeed-lazy-replaced-functions");
-                        c && c.insertBefore(a, e); if (c = a.getAttribute("data-pagespeed-lazy-srcset")) a.srcset = c, a.removeAttribute("data-pagespeed-lazy-srcset"); a.src = d
-                    } else b.g.push(a)
-                }, 0)
-            }; k.prototype.loadIfVisibleAndMaybeBeacon = k.prototype.m; k.prototype.s = function () { this.h = !0; q(this) }; k.prototype.loadAllImages = k.prototype.s; function q(a) { var b = a.g, d = b.length; a.g = []; for (var c = 0; c < d; ++c)a.m(b[c]) } function t(a, b) { return a.a ? null != a.a(b) : null != a.getAttribute(b) }
-            k.prototype.u = function () { for (var a = document.getElementsByTagName("img"), b = 0, d; d = a[b]; b++)t(d, "data-pagespeed-lazy-src") && p(d) }; k.prototype.overrideAttributeFunctions = k.prototype.u; function p(a) { t(a, "data-pagespeed-lazy-replaced-functions") || (a.c = a.getAttribute, a.getAttribute = function (a) { "src" == a.toLowerCase() && t(this, "data-pagespeed-lazy-src") && (a = "data-pagespeed-lazy-src"); return this.c(a) }, a.setAttribute("data-pagespeed-lazy-replaced-functions", "1")) }
-            g.o = function (a, b) {
-                function d() { if (!(c.b && a || c.i)) { var b = 200; 200 < (new Date).getTime() - c.l && (b = 0); c.i = window.setTimeout(function () { c.l = (new Date).getTime(); q(c); c.i = null }, b) } } var c = new k(b); g.lazyLoadImages = c; f(window, "load", function () { c.b = !0; c.h = a; c.f = 200; if (g.CriticalImages) { for (var b = 0, d = document.getElementsByTagName("img"), r = 0, n; n = d[r]; r++)-1 != n.src.indexOf(c.j) && t(n, "data-pagespeed-lazy-src") && b++; c.a = b; c.a || g.CriticalImages.checkCriticalImages() } q(c) }); b.indexOf("data") && ((new Image).src = b); f(window,
-                    "scroll", d); f(window, "resize", d)
-            }; g.lazyLoadInit = g.o;
-        })();
 
-        pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
-    </script>
     <meta http-equiv="origin-trial"
         content="A4RpyXPHPXj2Tt0KMMrya+U6IibH8/6yFLknmyK5ZwpgUNYhhwGyllkLZNqKedteT7fKzxsI8p/Pbpbd4tEJOQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5uZXQ6NDQzIiwiZmVhdHVyZSI6IkludGVyZXN0Q29ob3J0QVBJIiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
 </head>
@@ -3698,11 +3676,8 @@
                         <form action="/search/" id="search-form">
                             <div id="searchForm" class="form-item">
                                 <input id="title-search-input" placeholder="быстрый поиск" class="sinp1 form-control"
-                                    type="text" name="q" value=""
-                                    onfocus="if(this.value==&#39;Поиск товара&#39;){this.value=&#39;&#39;}"
-                                    onblur="if(this.value==&#39;&#39;){this.value=&#39;Поиск товара&#39;}">
-                                <a href="/#" class="btn btn-orange"
-                                    onclick="document.getElementById(&#39;search-form&#39;).submit()">Найти</a>
+                                    type="text" name="q" value="">
+                                <a href="/#" class="btn btn-orange">Найти</a>
                             </div>
                         </form>
                     </div>
