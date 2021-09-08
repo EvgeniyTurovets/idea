@@ -1,0 +1,498 @@
+@include('partials/header.html')
+<!--CONTENT-->
+<div class="content clearfix">
+    <!--
+        CONTENT LEFT SIDEBAR
+        -->
+    <div class="sidebar clearfix">
+        <div class="sidebar-item menu-left">
+            <div id="jquery-accordion-menu" class="jquery-accordion-menu gray">
+                <ul id="menu-left-list">
+                    <li>
+                        <a href="/furniture/mebel/">
+                            Мебель для ванной <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/furniture/mebel/">Комплекты мебели</a></li>
+                            <li><a href="/furniture/umivalnik/">Тумбы с раковиной</a></li>
+                            <li><a href="/furniture/zerkala/">Зеркало для ванной</a></li>
+                            <li><a href="/furniture/zerkalnye-shkafy/">Зеркальные шкафы</a></li>
+                            <li><a href="/furniture/penali/">Шкафы-пеналы</a></li>
+                            <li><a href="/furniture/navesnye-shkafy/">Навесные шкафы</a></li>
+                            <li><a href="/furniture/tumbi/">Тумбы без раковины</a></li>
+                            <li><a href="/furniture/tumby-pod-stiralnuyu-mashinu-s-rakovinoy/">Под стиральную машину</a>
+                            </li>
+                            <li><a href="/furniture/moydodyr-dlya-vannoy-komnaty-mebel-dlya-vannoy/">Мойдодыры</a></li>
+                            <li><a href="/furniture/uglovaya-mebel-dlya-vannoy-komnaty/">Угловая мебель</a></li>
+                            <li><a href="/furniture/mebel-dlya-vannoy-50-sm/">Ширина 50 см</a></li>
+                            <li><a href="/furniture/mebel-dlya-vannoy-60-sm/">Ширина 60 см</a></li>
+                            <li><a href="/furniture/mebel-dlya-vannoy-80-sm/">Ширина 80 см</a></li>
+                            <li><a href="/furniture/mebel-dlya-vannoy-100-sm/">Ширина 100 см</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/plitka/" class="root-item">
+                            Плитка <i class="fa fa-angle-down submenu-indicator" onclick="return false;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/bath/">
+                            Ванны <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/bath/akrilic/akrilovye-vanny/">Акриловые ванны</a></li>
+                            <li><a href="/bath/cast_iron/">Чугунные ванны</a></li>
+                            <li><a href="/bath/steel/">Стальные ванны</a></li>
+                            <li><a href="/bath/marble-baths/">Ванны из литьевого мрамора</a></li>
+                            <li><a href="/parts/sifony-dlya-rakoviny-i-vanny/">Сифоны-переливы</a></li>
+                            <li><a href="/parts/ekrany-pod-vannu/">Экраны под ванну</a></li>
+                            <li><a href="/parts/shtorki-dlya-vanny/">Шторки для ванны</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/sanitary_ware/floor/">
+                            Унитазы <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/sanitary_ware/floor/unitazy-napolnye-vse-modeli/">Напольные</a></li>
+                            <li><a href="/sanitary_ware/floor/suspended/">Подвесные</a></li>
+                            <li><a href="/sanitary_ware/floor/podvesnye-unitazy-s-installyatsiey/">Унитазы с
+                                    инсталляцией</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-kompakt/">Унитазы-компакт</a></li>
+                            <li><a href="/sanitary_ware/floor/bezobodkovye-unitazy/">Безободковые</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-s-kosym-vypuskom/">С косым выпуском</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-s-gorizontalnym-vypuskom/">С горизонтальным
+                                    выпуском</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-s-vertikalnym-vypuskom/">С вертикальным
+                                    выпуском</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-s-mikroliftom/">С микролифтом</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-s-polochkoy-tarelchatye/">С полочкой</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-deshyevye-ekonom/">Дешевые</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-dorogie/">Дорогие</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-monoblok/">Унитазы-моноблок</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-pristavnye/">Приставные</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-bide/">Унитазы-биде</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-tsvetnye/">Цветные</a></li>
+                            <li><a href="/sanitary_ware/floor/unitazy-chyernye/">Черные</a></li>
+                            <li><a href="/sanitary_ware/floor/dachnye-unitazy/">Для дачи</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/dushevye_cabiny/">
+                            Душевые кабины <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/dushevye_cabiny/cabiny-80x80/">80x80 см</a></li>
+                            <li><a href="/dushevye_cabiny/cabiny-90x90/">90x90 см</a></li>
+                            <li><a href="/dushevye_cabiny/cabiny-100x100/">100x100 см</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-120x80-sm/">120x80 см</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-dlya-dachi/">Для дачи</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-boksy/">Душевые боксы</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-s-vannoy/">Душевые с ванной</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-s-turetskoy-baney/">С турецкой баней</a></li>
+                            <li><a href="/dushevye_cabiny/gidromassazhnye-dushevye-kabiny/">С гидромассажем</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-vysokiy-poddon/">С высоким поддоном</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-nizkiy-poddon/">С низким поддоном</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-uglovye/">Угловые</a></li>
+                            <li><a href="/dushevye_cabiny/pryamougolnye-cabiny/">Прямоугольные</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-s-kryshey/">С крышей</a></li>
+                            <li><a href="/dushevye_cabiny/dushevye-kabiny-bez-kryshi/">Без крыши</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/shower_stalls/">
+                            Душевые уголки, поддоны, ограждения <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/shower_stalls/">Душевые уголки</a></li>
+                            <li><a href="/parts/dushevye-poddony/">Душевые поддоны</a></li>
+                            <li><a href="/parts/dushevye-dveri-v-nishu/">Душевые двери</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/sanitary_ware/sink/">
+                            Раковины <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/sanitary_ware/sink/rakoviny-vse-modeli/">Раковины все модели</a></li>
+                            <li><a href="/sanitary_ware/sink/rakoviny-nad-stiralnoy-mashinoy/">Над стиральной
+                                    машиной</a></li>
+                            <li><a href="/sanitary_ware/sink/suspended/">Подвесные</a></li>
+                            <li><a href="/sanitary_ware/sink/with_pedestal_tulip/">С пьедесталом</a></li>
+                            <li><a href="/sanitary_ware/sink/overhead/">Накладные</a></li>
+                            <li><a href="/sanitary_ware/sink/embedded/">Встраиваемые</a></li>
+                            <li><a href="/sanitary_ware/sink/outdoor/">Напольные</a></li>
+                            <li><a href="/sanitary_ware/sink/rakoviny-ot-40-do-50-sm/">От 40 до 50 см</a></li>
+                            <li><a href="/sanitary_ware/sink/rakoviny-ot-60-do-70-sm/">От 60 до 70 см</a></li>
+                            <li><a href="/sanitary_ware/sink/rakoviny-ot-80-do-90-sm/">От 80 до 90 см</a></li>
+                            <li><a href="/sanitary_ware/sink/rakoviny-ot-100-sm/">От 100 см</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/moyki-kukhonnye/">
+                            Мойки для кухни <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/moyki-kukhonnye/moyki-kukhonnye-vse-modeli/">Мойки кухонные все модели</a>
+                            </li>
+                            <li><a href="/moyki-kukhonnye/moyki-iskusstvennogo-kamnya/">Из искусственного камня</a></li>
+                            <li><a href="/moyki-kukhonnye/moyki-iz-nerzhaveyki/">Из нержавейки</a></li>
+                            <li><a href="/moyki-kukhonnye/granitnye-moyki/">Гранитные</a></li>
+                            <li><a href="/moyki-kukhonnye/kamennye-moyki/">Каменные</a></li>
+                            <li><a href="/moyki-kukhonnye/uglovye-moyki/">Угловые</a></li>
+                            <li><a href="/moyki-kukhonnye/nakladnye-moyki/">Накладные</a></li>
+                            <li><a href="/moyki-kukhonnye/vreznye-moyki/">Врезные</a></li>
+                            <li><a href="/moyki-kukhonnye/izmelchiteli/">Измельчители (диспоузеры)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/faucets/">
+                            Смесители <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/faucets/smesiteli-vse-modeli/">Смесители все модели</a></li>
+                            <li><a href="/faucets/for_shell/">Для раковины</a></li>
+                            <li><a href="/faucets/for_kitchen/">Для кухни</a></li>
+                            <li><a href="/faucets/for_bath/">Для ванны</a></li>
+                            <li><a href="/faucets/for_shower/">Для душа</a></li>
+                            <li><a href="/faucets/for_bide/">Для биде</a></li>
+                            <li><a href="/faucets/smesiteli-s-gigienicheskim-dushem/">С гигиеническим душем</a></li>
+                            <li><a href="/faucets/with_thermostat/">С термостатом</a></li>
+                            <li><a href="/faucets/smesiteli-na-bort-vanny/">На борт ванны</a></li>
+                            <li><a href="/faucets/single-lever/">Однорычажные</a></li>
+                            <li><a href="/faucets/smesiteli-dvukhventilnye/">Двухвентильные</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/dush/">
+                            Душ <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/dush/dushevye-sistemy/">Душевые системы</a></li>
+                            <li><a href="/dush/dushevye-stoyki/">Душевые стойки</a></li>
+                            <li><a href="/dush/gigienicheskiy/">Гигиенический душ</a></li>
+                            <li><a href="/dush/dushevaya-leyka/">Лейки для душа</a></li>
+                            <li><a href="/dush/dushevoy-shlang/">Шланги для душа</a></li>
+                            <li><a href="/dush/dushevaya-panel/">Душевая панель</a></li>
+                            <li><a href="/dush/verkhniy/">Верхний душ</a></li>
+                            <li><a href="/dush/derzhatel-dlya-dusha/">Держатели</a></li>
+                            <li><a href="/dush/dushevye-shtangi/">Штанги</a></li>
+                            <li><a href="/dush/dushevoy-komplekt/">Комплекты для душа</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/aksessuary-dlya-vannoj/">
+                            Аксессуары для ванной <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/aksessuary-dlya-vannoj/polki/">Полки</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/derzhateli-polotentsa/">Держатели полотенца</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/derzhateli-tualetnoy-bumagi/">Держатели туалетной
+                                    бумаги</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/zerkalo-kosmeticheskoe/">Зеркала косметические</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/kryuchki/">Крючки</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/ershiki/">Ершики</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/mylnitsy/">Мыльницы</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/dozatory-zhidkogo-myla/">Дозаторы мыла</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/stakany/">Стаканы для ванной</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/derzhateli-stakanov/">Держатели стаканов</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/poruchni/">Поручни</a></li>
+                            <li><a href="/aksessuary-dlya-vannoj/musornye-vedra/">Мусорные ведра</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/polotentsesushiteli/">
+                            Полотенцесушители <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/polotentsesushiteli/vodyanye/">Водяные</a></li>
+                            <li><a href="/polotentsesushiteli/elektricheskie/">Электрические</a></li>
+                            <li><a href="/polotentsesushiteli/lesenka/">Лесенка</a></li>
+                            <li><a href="/polotentsesushiteli/s-termoregulyatorom/">С терморегулятором</a></li>
+                            <li><a href="/polotentsesushiteli/m-obraznye/">М образные</a></li>
+                            <li><a href="/polotentsesushiteli/p-obraznye/">П образные</a></li>
+                            <li><a href="/polotentsesushiteli/nerzhaveyka/">Из нержавейки</a></li>
+                            <li><a href="/polotentsesushiteli/s-polkoy/">С полкой</a></li>
+                            <li><a href="/polotentsesushiteli/hromirovannye/">Хромированные</a></li>
+                            <li><a href="/polotentsesushiteli/povorotnye/">Поворотные</a></li>
+                            <li><a href="/polotentsesushiteli/besshovnye/">Бесшовные</a></li>
+                            <li><a href="/polotentsesushiteli/bokovye/">Боковые</a></li>
+                            <li><a href="/polotentsesushiteli/40-sm/">40 см</a></li>
+                            <li><a href="/polotentsesushiteli/50-sm/">50 см</a></li>
+                            <li><a href="/polotentsesushiteli/60-sm/">60 см</a></li>
+                            <li><a href="/polotentsesushiteli/rasprodazha/">Распродажа</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/vodonagrevateli/">
+                            Водонагреватели <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/vodonagrevateli/nakopitelnye/">Накопительные</a></li>
+                            <li><a href="/vodonagrevateli/protochnye/">Проточные</a></li>
+                            <li><a href="/vodonagrevateli/elektricheskie/">Электрические</a></li>
+                            <li><a href="/vodonagrevateli/gazovye/">Газовые</a></li>
+                            <li><a href="/vodonagrevateli/gorizontalnye/">Горизонтальные</a></li>
+                            <li><a href="/vodonagrevateli/vertikalnye/">Вертикальные</a></li>
+                            <li><a href="/vodonagrevateli/napolnye/">Напольные</a></li>
+                            <li><a href="/vodonagrevateli/nastennye/">Настенные</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/installjacii/">
+                            Инсталляции <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/installjacii/dlya-unitazov/">Для унитазов</a></li>
+                            <li><a href="/installjacii/dlya-bide/">Для биде</a></li>
+                            <li><a href="/installjacii/dlya-rakovin/">Для раковин</a></li>
+                            <li><a href="/installjacii/dlya-pissuarov/">Для писсуаров</a></li>
+                            <li><a href="/installjacii/bachki-skrytogo-montazha/">Скрытые бачки</a></li>
+                            <li><a href="/installjacii/smyvnye-ustroystva/">Смывные устройства</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/bide/">
+                            Биде <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/bide/napolnye/">Напольные</a></li>
+                            <li><a href="/bide/podvesnye/">Подвесные</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/pissuary/">
+                            Писсуары <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/pissuary/nastennye/">Настенные</a></li>
+                            <li><a href="/pissuary/sensornye/">Сенсорные</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/trapy-dushevye-lotki/">
+                            Трапы и лотки для душа <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/trapy-dushevye-lotki/lotki/">Душевые лотки</a></li>
+                            <li><a href="/trapy-dushevye-lotki/trapy/">Душевые трапы</a></li>
+                            <li><a href="/trapy-dushevye-lotki/s-gidrozatvorom/">С гидрозатвором</a></li>
+                            <li><a href="/trapy-dushevye-lotki/s-sukhim-zatvorom/">С сухим затвором</a></li>
+                            <li><a href="/trapy-dushevye-lotki/gorizontalnye/">Горизонтальные</a></li>
+                            <li><a href="/trapy-dushevye-lotki/vertikalnye/">Вертикальные</a></li>
+                            <li><a href="/trapy-dushevye-lotki/plastikovye/">Пластиковые</a></li>
+                            <li><a href="/trapy-dushevye-lotki/reshetki-dlya-trapov/">Решетки для трапов</a></li>
+                            <li><a href="/trapy-dushevye-lotki/reshetki-dlya-lotkov/">Решетки для лотков</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nolink">
+                            Отопление и водоснабжение <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/kotly_otoplenija/">Котлы отопления</a></li>
+                            <li><a href="/radiatory-otopleniya/">Радиаторы отопления</a></li>
+                            <li><a href="/teplye-poly/">Теплые полы</a></li>
+                            <li><a href="/obogrevateli/">Обогреватели</a></li>
+                            <li><a href="/truby/">Трубы</a></li>
+                            <li><a href="/fitingi/">Фитинги</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/svetilniki/">
+                            Светильники <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/svetilniki/lyustry/">Люстры</a></li>
+                            <li><a href="/svetilniki/nastennye/">Настенные</a></li>
+                            <li><a href="/svetilniki/potolochnye/">Потолочные</a></li>
+                            <li><a href="/svetilniki/napolnye/">Напольные</a></li>
+                            <li><a href="/svetilniki/nastolnye/">Лампы настольные</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/tovary-dlya-dachi/">
+                            Товары для дачи <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/tovary-dlya-dachi/biotualety-dlya-dachi-i-doma/">Биотуалеты для дачи</a></li>
+                            <li><a href="/tovary-dlya-dachi/umyvalniki-dlya-dachi-s-podogrevom/">Умывальники для
+                                    дачи</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/parts/">
+                            Комплектующие <i class="fa fa-angle-down submenu-indicator"></i></a>
+                        <ul class="submenu" style="display:none;">
+                            <li><a href="/parts/sifony-dlya-rakoviny-i-vanny/">Сифоны для раковины и ванны</a></li>
+                            <li><a href="/parts/dushevye-poddony/">Душевые поддоны</a></li>
+                            <li><a href="/parts/ekrany-pod-vannu/">Экраны под ванну</a></li>
+                            <li><a href="/parts/dushevye-dveri-v-nishu/">Душевые двери</a></li>
+                            <li><a href="/parts/shtorki-dlya-vanny/">Шторки для ванны раздвижные</a></li>
+                            <li><a href="/parts/kabine_parts/">Комплектующие для душевых</a></li>
+                            <li><a href="/parts/komplektuyushchie-dlya-smesiteley/">Комплектующие для смесителей</a>
+                            </li>
+                            <li><a href="/parts/unitaz_parts/">Комплектующие для унитазов</a></li>
+                            <li><a href="/parts/bath_parts/">Комплектующие для ванны</a></li>
+                            <li><a href="/parts/komplektuyushchie-dlya-rakovin/">Комплектующие для раковины</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-brands li-brands-first">
+                        <a rel="nofollow" href="/brands/"><span>Поиск по бренду</span><i class="pull-right"></i></a>
+                    </li>
+                    <li class="li-sales li-sales-first">
+                        <a rel="nofollow" href="/sale/"><span>Распродажа</span><i class="pull-right"></i></a>
+                    </li>
+                    <li class="li-sales">
+                        <a rel="nofollow" href="/skidki/"><span>Суперцены</span><i class="pull-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar-item">
+        </div>
+        <div class="sidebar-item">
+        </div>
+        <div class="sidebar-item">
+        </div>
+        <div class="sidebar-item">
+            <!--'start_frame_cache_y0XwfU'--><a rel="nofollow"
+                href="/bitrix/r4rk.php?id=43&amp;site_id=s1&amp;event1=banner&amp;event2=click&amp;event3=1+%2F+%5B43%5D+%5BLeft_Mebel%5D+%D0%98%D0%B4%D0%B5%D0%B8+%D0%B4%D0%BB%D1%8F+%D0%B4%D0%BE%D0%BC%D0%B0-1&amp;goto=%2Fidei-dlya-doma%2Fkondensat-na-bachke-unitaza%2F"
+                target="_blank"><img alt="Идеи для дома" title="Идеи для дома" src="/upload/rk/078/ideas-1-1.jpg"
+                    width="198" height="278" style="border:0;"></a>
+            <!--'end_frame_cache_y0XwfU'--> &nbsp;
+        </div>
+        <div class="sidebar-item">
+        </div>
+        <div class="sidebar-item">
+        </div>
+        <div class="sidebar-item">
+            <div class="news">
+            </div>
+        </div>
+        <div class="sidebar-item">
+            <div class="foot-text">
+            </div>
+        </div>
+    </div>
+    <!--
+        CONTENT RIGHT WORKAREA
+        -->
+    <div class="content-right anckor">
+        <div class="content-block breadcrumbs">
+            <ul>
+                <li><a href="/catalog/" title="Каталог"><span>Каталог</span></a></li>
+                <li><span>О компании</span></li>
+            </ul>
+        </div>
+        <script type="application/ld+json">
+            {
+             "@context": "https://schema.org",
+             "@type": "BreadcrumbList",
+             "itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"\/catalog\/","name":"\u041a\u0430\u0442\u0430\u043b\u043e\u0433"}},{"@type":"ListItem","position":2,"item":{"@id":"\/o-kompanii\/","name":"\u041e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438"}}]
+            }
+        </script>
+        <h1>О компании VIVON.RU</h1>
+        <br>
+        <p style="text-align: justify;">
+            <img width="720" alt="о компании" src="./img/about/1.jpg" height="161" title="Компания VIVON.RU" border="0">
+            <br>
+        </p>
+        <p style="text-align: justify;">
+            VIVON.RU – крупный интернет магазин, который предлагает большой выбор сантехники в Москве по доступным
+            ценам.
+        </p>
+        <p style="text-align: justify;">
+            Основная задача нашей деятельности - реализация сантехнического оборудования, сопутствующих аксессуаров,
+            мебельных комплектов и товаров для организации освещения, представленных популярными брендами.
+        </p>
+        <p style="text-align: justify;">
+            Наш ассортимент включает современные душевые кабины, акриловые ванны и унитазы, оригинальные
+            полотенцесушители и мойки. Мы предлагаем лучшие модификации мебельных гарнитуров, аксессуаров и смесителей,
+            а также богатый каталог светильников и люстр, который насчитывает широкую вариативность стилистических
+            концепций.
+        </p>
+        <p style="text-align: justify;">
+            Список наших предложений очень динамичен и постоянно дополняется новинками. Мы делаем все, чтобы покупателям
+            были доступны самые последние модели и придерживаемся низких ценовых рамок, чтобы лучшие товары смогли
+            приобрести все желающие.
+        </p>
+        <p style="text-align: justify;">
+            С нами процедура покупки сантехники принесет лишь приятные эмоции. Благодаря помощи менеджеров консультантов
+            Вы сможете быстро сделать выбор, учитывая личные предпочтения, особенности действующего интерьера и
+            финансовые возможности. А команда профессиональных логистов позаботится о максимально быстрой доставке
+            Вашего заказа.
+        </p>
+        <p style="text-align: justify;">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/8kFSMbM4Tyg?rel=0&amp;controls=0"
+                frameborder="0" allowfullscreen=""></iframe>
+        </p>
+        <p style="text-align: justify;">
+            <strong>Наши преимущества:</strong>
+        </p>
+        <ul>
+            <li>Огромный выбор сантехники от ведущих европейских, российских и азиатских производителей;</li>
+            <li>Удобный интернет каталог и форма поиска товаров;</li>
+            <li>Низкие цены от производителей;</li>
+            <li>Возможность покупки товаров по распродаже;</li>
+            <li>Оперативная и отлаженная доставка по Москве и всей РФ.</li>
+        </ul>
+        <p align="justify">
+            <strong>СМИ о нас:</strong>
+        </p>
+        <noindex>
+            <ul>
+                <li>Ведущий строительный портал «<a href="http://best-stroy.ru/news/2868" rel="nofollow" target="_blank"
+                        title="Ведущий строительный портал «Бест-Строй»">Бест-Строй</a>»;</li>
+                <li>Информационное агентство «<a href="http://www.klerk.ru/materials/2016-08-04/447947/" rel="nofollow"
+                        target="_blank" title="Информационное агентство «Клерк.Ру»">Клерк.Ру</a>»;</li>
+                <li>Информационный портал «<a href="http://www.tomsk.ru/news/view/116906" rel="nofollow" target="_blank"
+                        title="Информационный портал «Томск»">Томск</a>»;</li>
+                <li>Деловой аналитический ресурс «<a
+                        href="http://expert.ru/2016/02/5/rossijskij-ryinok-santehniki-perspektivyi-razvitiya/"
+                        rel="nofollow" target="_blank" title="Деловой аналитический ресурс «Эксперт Online»">Эксперт
+                        Online</a>».</li>
+            </ul>
+        </noindex>
+        <p style="text-align: justify;">
+            <strong>Отзывы о нас:</strong>
+        </p>
+        <noindex>
+            <ul>
+                <li><a href="https://maps.yandex.ru/org/vivon_ru/1067815525" rel="nofollow"
+                        target="_blank">Яндекс.Отзывы</a>;</li>
+                <li><a href="http://www.yell.ru/moscow/com/vivonru_8889111/" rel="nofollow" target="_blank">Yell –
+                        отзывы</a>;</li>
+                <li><a href="http://zoon.ru/msk/shops/internet-magazin_santehniki_vivonru_na_dorozhnoj_ulitse/"
+                        rel="nofollow" target="_blank">Zoon – отзывы</a>;</li>
+                <li><a href="http://moskva.tulp.ru/internet-magazin/vivon-ru" rel="nofollow" target="_blank">Tulp –
+                        честные отзывы</a>;</li>
+                <li><a href="http://www.rateshops.ru/info/mebelnye-magaziny/vivon-ru-9393" rel="nofollow"
+                        target="_blank">RateShops – рейтинг магазинов</a>.</li>
+            </ul>
+        </noindex>
+        <p style="text-align: justify;">
+            <strong>Мы с соц.сетях:</strong>
+        </p>
+        <ul style="text-decoration: none;">
+            <a target="_blank" rel="nofollow" href="http://vk.com/vivon_ru">
+                <img src="./img/about/2.png" alt="ВКонтакте"></a>
+            <a target="_blank" rel="nofollow" href="https://www.facebook.com/VIVON.RU">
+                <img alt="Facebook" src="./img/about/3.png"></a>
+            <a target="_blank" rel="nofollow" href="https://ok.ru/vivon.santehnika">
+                <img src="./img/about/4.png" alt="Одноклассники"></a>
+            <a target="_blank" rel="nofollow" href="https://twitter.com/VIVON_RU">
+                <img alt="Тwitter" src="./img/about/5.png"></a>
+            <a target="_blank" rel="nofollow" href="http://www.youtube.com/c/vivonru_santehnika">
+                <img alt="Youtube" src="./img/about/6.png"></a>
+            <a target="_blank" rel="nofollow" href="https://zen.yandex.ru/id/5d664fcd6d29c100ad8e6b32">
+                <img alt="Yndex.zen" src="./img/about/7.png"></a>
+            <a target="_blank" rel="nofollow" href="https://www.instagram.com/vivon_ru/">
+                <img src="./img/about/7.png" alt="Инстаграм"></a>
+        </ul>
+        <p style="text-align: justify;">
+            <strong>Юридическая информация:</strong>
+        </p>
+        <p>
+            ООО «Маристо» <br>
+            ИНН 7710958190 <br>
+            КПП 772601001 <br>
+            ОГРН 1147746226275 <br>
+            Юр. адрес: 117545, г. Москва, ул.Дорожная, дом 1, корпус 3Б, этаж 2, комн №1.
+        </p>
+        <p style="text-align: justify;">
+            <strong>Контакты:</strong>
+        </p>
+        <p>
+            Тел.: (495) 647-00-84, (495) 722-67-36; <br>
+            E-mail: <a href="mailto:ask@vivon.ru">ask@vivon.ru</a>; <br>
+            Физ. адрес: г.&nbsp;Москва, ул.&nbsp;Дорожная, д.&nbsp;1, стр.&nbsp;3Б.
+        </p>
+        <p>
+            <a href="/about/">Подробнее</a>
+        </p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+@include('partials/footer.html')

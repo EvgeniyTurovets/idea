@@ -206,7 +206,7 @@ input[type=radio]
     /*content: "\2713";*/
     content: "";
     /*background:url(/local/templates/Vivon2019/components/bitrix/sale.order.ajax/make_vivon/images/checkbox_ok_blue.png) left top no-repeat;*/
-    background:url(/local/templates/Vivon2019/components/bitrix/sale.order.ajax/make_vivon/images/check__min_.svg) left top no-repeat;
+    background:url(./check__min_.svg) left top no-repeat;
     background-size: 12px 12px;
     background-position: 1px 1px;
     /*border: #0f8fee 1px solid;
