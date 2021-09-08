@@ -233,9 +233,15 @@
 .product-block-info-ico2{display: inline-block; vertical-align: middle; width: 37px; height: 41px; background: url(/local/templates/Vivon2019/components/codenails/catalog.element/new2020/../../../../img/sprite.png) no-repeat -38px 0;}
 .product-block-info-ico3{display: inline-block; vertical-align: middle; width: 41px; height: 41px; background: url(/local/templates/Vivon2019/components/codenails/catalog.element/new2020/../../../../img/sprite.png) no-repeat -75px 0;}
 */
-.product-block-info-ico1{display: inline-block; vertical-align: middle; width: 38px; height: 42px; background: url(/local/templates/Vivon-2017/img/swg/1-n-5.svg) no-repeat 0 0;background-size: cover;}
-.product-block-info-ico2{display: inline-block; vertical-align: middle; width: 37px; height: 41px; background: url(/local/templates/Vivon-2017/img/swg/1-n-6.svg) no-repeat 0 0;background-size: cover;}
-.product-block-info-ico3{display: inline-block; vertical-align: middle; width: 41px; height: 41px; background: url(/local/templates/Vivon-2017/img/swg/1-n-7.svg) no-repeat 0 0;background-size: cover;}
+.product-block-info-ico1{display: inline-block; vertical-align: middle; width: 38px; height: 42px; 
+	/* background: url(/local/templates/Vivon-2017/img/swg/1-n-5.svg) no-repeat 0 0; */
+	background-size: cover;}
+.product-block-info-ico2{display: inline-block; vertical-align: middle; width: 37px; height: 41px; 
+	/* background: url(/local/templates/Vivon-2017/img/swg/1-n-6.svg) no-repeat 0 0; */
+	background-size: cover;}
+.product-block-info-ico3{display: inline-block; vertical-align: middle; width: 41px; height: 41px; 
+	/* background: url(/local/templates/Vivon-2017/img/swg/1-n-7.svg) no-repeat 0 0; */
+	background-size: cover;}
 
 
 .product-block-item.icons .col .product-block-info-text{text-align: center; font-size: 13px; margin:0 -10px;}
@@ -1335,7 +1341,7 @@ img.mfp-img {
 	/*left:130px !important;*/
 	left: calc(100% / 2 - 40.5px) !important;
 	font-size:12px;
-	background: url(/local/templates/Vivon2019/components/codenails/catalog.element/new2020/../../../../img/zoom_in.png) no-repeat left center;
+	/* background: url(/local/templates/Vivon2019/components/codenails/catalog.element/new2020/../../../../img/zoom_in.png) no-repeat left center; */
 	padding-left: 18px;
 	visibility: hidden;
 }
@@ -1553,7 +1559,9 @@ background-color: #302f2d; margin-top: -55px;}
 	font-size:23px;
 	font-variant: small-caps;}
 .product-kit-price-button .button span{display: inline-block;margin-top: 4px;}
-.product-kit-ico{display: inline-block; vertical-align: middle; width: 18px; height: 18px; background: url(/local/templates/Vivon2019/components/codenails/catalog.element/new2020/../../../../img/sprite.png) no-repeat -18px -42px; margin: 0 5px 0 0}
+.product-kit-ico{display: inline-block; vertical-align: middle; width: 18px; height: 18px; 
+	/* background: url(/local/templates/Vivon2019/components/codenails/catalog.element/new2020/../../../../img/sprite.png) no-repeat -18px -42px; */
+	 margin: 0 5px 0 0}
 .product-kit-item{margin: 10px}
 .product-kit-item-fixed .product-kit-item-link a{cursor: default;text-decoration: none;}
 .product-kit-item.active .product-kit-ico{background-position: 0 -42px}
