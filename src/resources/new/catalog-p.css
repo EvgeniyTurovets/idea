@@ -1339,6 +1339,80 @@ a.brand-item-logo-img:hover {
 	background: url('data:image/gif;base64,R0lGODlhAwADAKIAAO+ZJPXAePnctPKqSPGnQvfNk+2JAAAAACH5BAAAAAAALAAAAAADAAMAAAMGOBZmUEQkADs=') no-repeat 0 9px;
 }
 
+
+/* Start:/local/templates/Vivon2019/components/bitrix/news/brands/codenails/news.detail/.default/style.css?15832928901301*/
+.brand-detail {
+	margin-bottom: 20px;
+}
+.clearfix:before, 
+.clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+
+.brand-detail .detail_picture {
+	float:left;
+	margin:0 20px 10px 0;
+	width: 150px;
+}
+.brand-detail .detail_picture img {
+	max-width: 100%;
+	display: block;
+}
+.detail_picture + .brand-item-items {
+	width: 530px;
+}
+.detail_picture + .brand-item-items li {
+	width: 50%;
+}
+.brand-detail-header {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #ccc;
+}
+.brand-item-items {
+	list-style: none;
+	margin: 15px 0 0 0;
+	padding: 0;
+	float: left;
+	width: 700px;
+}
+.brand-item-items li {
+	width: 33%;
+	padding-left: 10px;
+	float: left;
+	background: url('data:image/gif;base64,R0lGODlhAwADAKIAAO+ZJPXAePnctPKqSPGnQvfNk+2JAAAAACH5BAAAAAAALAAAAAADAAMAAAMGOBZmUEQkADs=') no-repeat 0 9px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.brand-series-items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+.brand-series-items li {
+	display: inline-block;
+	padding: 0 4px;
+	margin-bottom: 10px;
+	line-height: 16px;
+	border-left: solid 1px #464646;
+}
+.brand-series-items li:first-child {
+	border-left: none;
+}
+.series-wrapper {
+	margin: 20px 0;
+}
+.series-wrapper h3 {
+	display: inline-block;
+}
+
+
+/* End */
+/* /local/templates/Vivon2019/components/bitrix/news/brands/codenails/news.detail/.default/style.css?15832928901301 */
+
 /* End */
 /* /local/components/kombox/filter/templates/vivon/style.css?162763445311836 */
 /* /local/components/kombox/filter/templates/vivon/css/normalize.css?15090810887926 */
