@@ -49,7 +49,7 @@ if ($('#tovar-page').length) {
 					}
 				}
 			});
-
+		
 			$('.fotorama').on(
 				'fotorama:load fotorama:show fotorama:ready fotorama:showend',
 				function (e, fotorama, extra) {
@@ -364,6 +364,9 @@ if ($('#tovar-page').length) {
 
 		// console.log(jsComplectSet);
 
+		$(".bubble2 .fa").click(function () {
+			$(this).parent().addClass('hide');
+		});
 		$(".bubble .fa").click(function () {
 			$(this).parent().addClass('hide');
 		});
@@ -458,65 +461,23 @@ if ($('#tovar-page').length) {
 		var otherPicturesLst = $("#other-small-imgs");
 		otherPicturesLst.owlCarousel({
 			singleItem: false,
-			// afterAction : syncPosition
-
-			items: 6,
 			slideBy: 1,
-			// scrollPerPage : true,
-			autoWidth: true,
 			itemElement: 'li',
 			nestedItemSelector: 'sm-owl-carousel-item',
-			// itemsDesktop      : [65,86],
-			// itemsDesktopSmall : [1140,4],
-			// itemsTablet       : [768,4],
-			// itemsMobile       : [479,4],
 			loop: true,
-			// speed: 1000,
-			// margin: 10.5,
 			mouseDrag: true,
 			nav: true,
 			navigation: true,
 			navigationText: true,
 			pagination: true,
 			navText: ['prev', 'next'],
-			// navContainer: '.cb-carousel-nav',
-			// autoHeight: true,
 			slideSpeed: 600,
-			// rewind:false,
-			// rewindNav:false
+			itemsDesktop: [2200, 6],
+			itemsTablet: [1200, 4],
+			itemsMobile: [560, 3],
 		});
 		var owlDataSmallPictures = otherPicturesLst.data('owlCarousel');
 
-
-		// $('div.other-image div a').on('click', function() {
-		// 	//$('.largeimg > img').attr('src', $(this).data('href'));
-		// 	//console.log($(this).data('href'));
-
-		// 	owlDataPictures.goTo($(this).data('x'));
-		// 	owlDataSmallPictures.goTo($(this).data('x'));
-		// 	// console.log(owlDataSmallPictures);
-		// 	// itemIndex = owlDataSmallPictures.currentItem;
-		// 	$('.sm-owl-carousel-item').find('a').removeClass('active');
-		// 	// alert(owlDataSmallPictures.currentItem);
-		// 	$(this).addClass('active');
-		// 	return false;
-		// });
-
-		/*
-		$('div.other-image div a').hover(function() {
-			//$('.largeimg > img').attr('src', $(this).data('href'));
-			//console.log($(this).data('href'));
-	
-			owlDataPictures.goTo($(this).data('x'));
-			// owlDataSmallPictures.goTo($(this).data('x'));
-			// console.log(owlDataSmallPictures);
-			// itemIndex = owlDataSmallPictures.currentItem;
-			$('.sm-owl-carousel-item').find('a').removeClass('active');
-			// alert(owlDataSmallPictures.currentItem);
-			$(this).addClass('active');
-			return false;
-		});
-		*/
 		$('div.other-image div a').hover(function () {
 			//$('.largeimg > img').attr('src', $(this).data('href'));
 			//console.log($(this).data('href'));
@@ -675,116 +636,6 @@ if ($('#tovar-page').length) {
 				$('.product-kit-block-link').addClass('product-kit-block-link-gradient')
 		});
 
-		// добавить в комплект и расчёт общей стоимости комплекта
-
-		// function initColorCheckboxes(){
-		//     var checkboxesSelected = $(".product-kit-block :checkbox:checked");
-		//     if(checkboxesSelected.length > 0)
-		//     {
-		//         // console.log('items in complect = ' + checkboxesSelected.length);
-		//         $(checkboxesSelected).each(function(){
-		//             $(this).parent().parent().addClass('active');
-		//             $(this).parent().find('span').text('в заказе');
-		//         });
-		//     }
-		// }
-
-		// initColorCheckboxes();
-
-		/*$(".add-complect-item-2basket").click(function(e){
-			e.preventDefault();
-	
-			if(!$(this).parent().parent().hasClass('active'))
-			{
-				var base_complect_price = parseFloat($(".product-kit-price-price").data('base-complect-price'));
-	
-				var current_complect_price = parseFloat($(".product-kit-price-price").data('current-complect-price'));
-				var selected_item_checkbox = $(this).parent().find("input");
-				var selected_complect_item_price = $(selected_item_checkbox).attr('rel');
-				var selected_complect_item_price_to_change = $(".change-input:checked:first").attr('rel');
-	
-				current_complect_price = current_complect_price - parseFloat(selected_complect_item_price_to_change) + parseFloat(selected_complect_item_price);
-	
-				$(".product-kit-price-price").data('current-complect-price', current_complect_price);
-	
-				$(".change-input").each(function(){
-					$(this).attr('checked', false);
-					$(this).parent().parent().removeClass('active');
-					$(this).parent().find('span').text('добавить');
-				});
-	
-				$(this).parent().parent().addClass('active');
-				$(this).find('span').text('в заказе');
-				$(selected_item_checkbox).attr('checked', true);
-	
-				// console.log(current_complect_price+', '+selected_complect_item_price+', '+selected_complect_item_price_to_change);
-				// console.log(selected_complect_item_price_to_change);
-	
-				// var current_checkbox_group = $(current_checkbox).data("group");
-				// var checkboxesSelectedInGroup = $(".change-input[data-group="+current_checkbox_group+"]:checked");
-				// console.log(checkboxesSelectedInGroup);
-				// console.log($(checkboxesSelectedInGroup[0]).attr('rel'));
-	
-				// $(".change-input[data-group="+current_checkbox_group+"]").attr('checked', false);
-				// $(".product-kit-price-price").data('current-complect-price', current_complect_price - parseFloat($(checkboxesSelectedInGroup[0]).attr('rel')));
-				// current_complect_price = parseFloat($(".product-kit-price-price").data('current-complect-price'));
-	
-				// $(".change-input[data-group="+current_checkbox_group+"]").each(function(){
-				//    $(this).attr('checked', false);
-				//    $(this).parent().parent().removeClass('active');
-				//    $(this).parent().find('span').text('добавить');
-				// });
-				// $(this).parent().parent().addClass('active');
-				// $(this).find('span').text('в заказе');
-				// $(".product-kit-price-price").data('current-complect-price', current_complect_price + parseFloat($(selected_item_checkbox).attr('rel')));
-	
-				// if($(this).parent().find("input").attr('checked') == undefined)
-				// {
-				//     $(this).parent().children("input").attr('checked', true);
-				//     $(this).parent().parent().addClass('active');
-				//     $(this).find('span').text('в заказе');
-	
-				//     $(".product-kit-price-price").data('current-complect-price', current_complect_price + parseFloat($(current_checkbox).attr('rel')));
-				// }
-				// else
-				// {
-				//     $(this).parent().children("input").attr('checked', false);
-				//     $(this).parent().parent().removeClass('active');
-				//     $(this).find('span').text('добавить');
-	
-				//     $(".product-kit-price-price").data('current-complect-price', current_complect_price - parseFloat($(current_checkbox).attr('rel')));
-				// }
-	
-				// current_complect_price = parseFloat($(".product-kit-price-price").data('current-complect-price'));
-	
-				var current_complect_price_formatted = '';
-	
-				var thousand = Math.floor(current_complect_price/1000);
-				var hundred = current_complect_price - (thousand * 1000);
-				hundred = '000' + hundred;
-				if (hundred.length > 3)
-				{
-					hundred = hundred.substring(hundred.length-3, hundred.length)
-				}
-	
-				//console.log(current_complect_price);
-	
-				current_complect_price_formatted = thousand+' '+hundred+' руб.';
-	
-				// console.log(checkboxesSelected);
-	
-				// var sum = product_price;
-				// console.log(sum);
-				// $(checkboxesSelected).each( function(el) {
-				//     // var $curCheckBox = $(this);
-				//     // var curPrice = $curCheckBox.attr('rel');
-				//     var curPrice = $(this).attr('rel');
-				//     // alert(curPrice);
-				//     sum += parseFloat(curPrice);
-				// });
-				$('.product-kit-price-price').replaceWith('<div class="product-kit-price-price" data-base-complect-price="'+base_complect_price+'" data-current-complect-price="'+current_complect_price+'">'+current_complect_price_formatted+'</div>');
-			}
-		});*/
 
 		if ($('.product-kit-block').length) {
 			$(window).scroll(function () {
