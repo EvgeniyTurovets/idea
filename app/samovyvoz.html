@@ -79,11 +79,14 @@
                 -->
         <div class="header-fixed">
             <input id="menuButton" type="checkbox">
-            <label for="menuButton" class="menu-button header-nav-button">
+            <label for="menuButton" id="burger-btn" class="menu-button header-nav-button">
                 <i class="menu-ico"></i></label>
             <div class="header-nav">
                 <div class="header-nav-dropdown">
-                    <!-- <label  class="work-time-item"><span class="header-nav-dropdown-text">Работаем ежедневно 9:00 - 20:00</span></label> -->
+                    <button id="burger-close" class="burger-close">
+                        <span></span>
+                        <span></span>
+                    </button>
                     <div class="header-nav-dropdown-block">
                         <div class="container">
                             <ul class="header-nav-dropdown-list">
@@ -452,12 +455,7 @@
                                                 </svg>
                                             </span>
                                             <span class="catalog-nav-link-text">Плитка</span>
-                                            <span class="catalog-nav-link-arrow">
-                                                <svg class="icon icon-arrow_grey">
-                                                    <use xlink:href="./new-mob/symbol-defs.svg#icon-arrow_grey">
-                                                    </use>
-                                                </svg>
-                                            </span>
+                                            
                                         </a>
                                     </li>
                                     <li class="catalog-nav-dropdown js--catalog-nav-dropdown">
@@ -3142,12 +3140,7 @@
                                                 </svg>
                                             </span>
                                             <span class="catalog-nav-link-text">Товары для дачи</span>
-                                            <span class="catalog-nav-link-arrow">
-                                                <svg class="icon icon-arrow_grey">
-                                                    <use xlink:href="./new-mob/symbol-defs.svg#icon-arrow_grey">
-                                                    </use>
-                                                </svg>
-                                            </span>
+                                           
                                         </a>
                                     </li>
                                     <li class="catalog-nav-dropdown js--catalog-nav-dropdown">
@@ -5029,15 +5022,6 @@
 </script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		// var h = 0;
-		// $('.sl ul li div.images').each(function() {
-		//     if($(this).height() > h) {
-		//         h = $(this).height();
-		//     }
-		// })
-
-		// $('.sl ul li div.images').height(h);
-
 		$(function () {
 			var cnew = $('#cnew .carousel-content');
 			cnew.owlCarousel({
@@ -5050,17 +5034,10 @@
 			var owlcnew = cnew.data('owlCarousel');
 
 			$('#prew_cnew').click(function () {
-				//cnew.trigger('prev.cnew.carousel');
-				// $('#cnew .owl-prev').click();
-
 				owlcnew.prev();
 			});
 
 			$('#next_cnew').click(function () {
-				//console.log(cnew);
-				//cnew.trigger('next.cnew.carousel');
-				// $('#cnew .owl-next').click();
-
 				owlcnew.next();
 			});
 		});
@@ -5070,68 +5047,23 @@
 </script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		// var h = 0;
-		// $('.sl ul li div.images').each(function() {
-		//     if($(this).height() > h) {
-		//         h = $(this).height();
-		//     }
-		// })
-
-		// $('.sl ul li div.images').height(h);
-
 		$(function () {
-			// $("#chit").jCarouselLite({
-			//     btnNext: "#next_chit",
-			//     btnPrev: "#prew_chit",
-			//     speed: 1000,
-			//     scroll: 4,
-			//     visible: 4,
-			//     responsive: true,
-			//     circular: false,
-			//     swipe: true
-			// });
-
-			// $('.carousel-content-wrapper .carousel-content').width('10000px');
-
 			var chit = $('#chit .carousel-content');
 			chit.owlCarousel({
 				items: 5,
-				//slideBy: 3,
 				scrollPerPage: true,
-				// autoWidth: true,
-				// itemElement: 'li',
-				// nestedItemSelector: 'carousel-item',
-				itemsDesktop: [1430, 5],
-				//itemsDesktopSmall     : [1140,4],
-				// itemsTablet       : [768,4],
-				// itemsMobile       : [479,4],
-				// loop: true,
-				// speed: 1000,
-				// margin: 10.5,
-				// mouseDrag : true,
 				navigation: false,
 				nav: true,
 				slideSpeed: 600,
-				// navText: ['','']
-				// navContainer: '.cb-carousel-nav'
-				// scrollPerPage: true,
-				// autoHeight: true
 			});
 
 			var owlchit = chit.data('owlCarousel');
 
 			$('#prew_chit').click(function () {
-				//chit.trigger('prev.chit.carousel');
-				// $('#chit .owl-prev').click();
-
 				owlchit.prev();
 			});
 
 			$('#next_chit').click(function () {
-				//console.log(chit);
-				//chit.trigger('next.chit.carousel');
-				// $('#chit .owl-next').click();
-
 				owlchit.next();
 			});
 		});
@@ -5145,24 +5077,11 @@
 		$(function () {
 			var csale = $('#csale .carousel-content');
 			csale.owlCarousel({
-				items: 6,
-				// slideBy: 3,
+				items: 5,
 				scrollPerPage: true,
-				// autoWidth: true,
-				// itemElement: 'li',
-				// nestedItemSelector: 'carousel-item',
-				itemsDesktop: [1430, 5],
-				// itemsDesktopSmall : [1140,4],
-				// itemsTablet : [768,4],
-				// itemsMobile : [479,4],
-				// loop: true, // speed: 1000, // margin: 10.5,
-				// mouseDrag : true,
 				navigation: false, nav: true,
 				slideSpeed: 600,
-				// navText: ['','']
-				// navContainer: '.cb-carousel-nav'
-				// scrollPerPage: true,
-				// autoHeight: true
+				
 			});
 
 			var owlcsale = csale.data('owlCarousel');
