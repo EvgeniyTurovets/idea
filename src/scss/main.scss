@@ -306,6 +306,16 @@
     }
     .carousel-item .product-image{
         margin: 0 auto;
+        position: relative;
+    }
+    .product-image a:last-child{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
     }
     .carousel-faq .carousel-content .carousel-item{
         min-height: 150px;
