@@ -523,42 +523,12 @@
 		// $('.sl ul li div.images').height(h);
 
 		$(function () {
-			// $("#cnew").jCarouselLite({
-			//     btnNext: "#next_cnew",
-			//     btnPrev: "#prew_cnew",
-			//     speed: 1000,
-			//     scroll: 4,
-			//     visible: 4,
-			//     responsive: true,
-			//     circular: false,
-			//     swipe: true
-			// });
-
-			// $('.carousel-content-wrapper .carousel-content').width('10000px');
-
 			var cnew = $('#cnew .carousel-content');
 			cnew.owlCarousel({
-				items: 5,
-				//slideBy: 3,
 				scrollPerPage: true,
-				// autoWidth: true,
-				// itemElement: 'li',
-				// nestedItemSelector: 'carousel-item',
-				itemsDesktop: [1430, 5],
-				//itemsDesktopSmall     : [1140,4],
-				// itemsTablet       : [768,4],
-				// itemsMobile       : [479,4],
-				// loop: true,
-				// speed: 1000,
-				// margin: 10.5,
-				// mouseDrag : true,
 				navigation: false,
 				nav: true,
 				slideSpeed: 600,
-				// navText: ['','']
-				// navContainer: '.cb-carousel-nav'
-				// scrollPerPage: true,
-				// autoHeight: true
 			});
 
 			var owlcnew = cnew.data('owlCarousel');

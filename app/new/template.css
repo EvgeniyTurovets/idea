@@ -3747,7 +3747,7 @@ ul
 }
 
 .fancybox-inner {
-	overflow: hidden!important;
+	overflow-x: hidden!important;
 }
 
 .fancybox-type-iframe .fancybox-inner {
@@ -8822,6 +8822,9 @@ svg.zen-icon-svg:hover{
 .product-block-img .product-block-actions-item.blue-bg
 {
     background-color: #528c83;
+}
+.content-block .carousel-content-wrapper{
+	width: 100%;
 }
 /* Start:/local/templates/Vivon2019/components/bitrix/breadcrumb/nav/style.css?1583292890453*/
 .breadcrumbs{padding: 10px 0 0}
